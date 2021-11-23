@@ -1,0 +1,8 @@
+<script>
+$(function(){
+    $.getJSON('https://zaikinandrey.github.io/zaikin-test.github.io/data/tokens.json', function(data) {
+                $("#blue").css("background", data.general.primary_color.value);
+                 $("body").css("background", data.general.background_color.value);
+    });
+});
+</script>
