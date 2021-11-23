@@ -1,0 +1,136 @@
+.landing {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 699px;
+  padding: 0 110px;
+  width: 1400px;
+}
+
+.landing .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  min-height: 601px;
+  width: 656px;
+}
+
+.landing .logo {
+  height: 48px;
+  width: 48px;
+}
+
+.landing .img1 {
+  height: 322px;
+  margin-top: 92px;
+  object-fit: cover;
+  width: 508px;
+}
+
+.landing .h2 {
+  align-self: flex-end;
+  color: var(--blue);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 109px;
+  min-height: 30px;
+  min-width: 190px;
+}
+
+.landing .flex-col-1 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-top: 53px;
+  min-height: 606px;
+  width: 508px;
+}
+
+.landing .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  min-width: 499px;
+}
+
+.landing .nav1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 70px;
+}
+
+.landing .nav2 {
+  letter-spacing: 0;
+  margin-left: 80px;
+  min-height: 22px;
+  min-width: 68px;
+}
+
+.landing .nav3 {
+  letter-spacing: 0;
+  margin-left: 80px;
+  min-height: 22px;
+  min-width: 86px;
+}
+
+.landing .nav4 {
+  letter-spacing: 0;
+  margin-left: 80px;
+  min-height: 22px;
+}
+
+.landing .h1 {
+  letter-spacing: 0.96px;
+  line-height: 60px;
+  margin-top: 146px;
+  min-height: 240px;
+  min-width: 497px;
+}
+
+.landing .span {
+  letter-spacing: 0.46px;
+}
+
+.landing .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 66px;
+  margin-top: 132px;
+  min-width: 508px;
+}
+
+.landing .el1 {
+  height: 18px;
+  width: 18px;
+}
+
+.landing .description {
+  letter-spacing: 0;
+  margin-left: 80px;
+  min-height: 66px;
+  width: 410px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,700");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
