@@ -1,3 +1,11 @@
+ <script>
+$(function(){
+    $.getJSON('https://skhrisanov.github.io/figmatokens/tokens.json', function(data) {
+                $("#blue").css("background", data.general.primary_color.value);
+                 $("body").css("background", data.general.background_color.value);
+    });
+});
+</script>
 <div class="container-center-horizontal">
   <div class="landingscreen">
     <div class="flex-col">
