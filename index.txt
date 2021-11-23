@@ -1,0 +1,38 @@
+<div class="container-center-horizontal">
+  <div class="landingscreen">
+    <div class="flex-col">
+      <img
+        class="logo"
+        src="logo.svg"
+      />
+      <img
+        class="img1"
+        src="handcuffs-2202224-1.png"
+      />
+      <div class="h2">TAKE YOUR OFFER</div>
+    </div>
+    <div class="flex-col-1">
+      <div class="flex-rowmanrope-bold-mine-shaft-16px">
+        <div class="nav1">About us</div>
+        <div class="nav2">Services</div>
+        <div class="nav3">Contact us</div>
+        <div class="nav4">Blog</div>
+      </div>
+      <h1 class="h1manrope-normal-white-48px">
+        <span class="spanmanrope-normal-mine-shaft-48px">discover </span
+        ><span class="spanmanrope-normal-new-car-48px">providing<br />security</span
+        ><span class="spanmanrope-normal-mine-shaft-48px"> for any<br />international<br />companies today</span>
+      </h1>
+      <div class="flex-row-1">
+        <img
+          class="el1"
+          src="el-1.svg"
+        />
+        <p class="descriptionmanrope-bold-mine-shaft-16px">
+          International security standard - Delta Security Inc. at your service. Our specialists have the highest
+          categories. Take advantage of our special offer today
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
